@@ -1,8 +1,8 @@
 # List of APIs from the registry to integrate into the portal.
 apiCatalog:
-  - title: Petstore API reference
+  - title: Petstore API reference # Optional custom title to use for the API. If omitted, the API name from the registry is used by default.
     # defaultVersion: # Optional indicator specifying which of the listed 'versions' to treat as the default. If omitted, the last listed version is treated as the default.
-    disableAutoSidebar: false # Optional parameter that prevents automatically creating the default 'sidebars.yaml' file. When set, users must manually add files to their existing 'sidebars.yaml' file or include a 'sidebars.yaml' file alongside their registry files.
+    disableAutoSidebar: true # Optional parameter that prevents automatically creating the default 'sidebars.yaml' file. When set, users must manually add files to their existing 'sidebars.yaml' file or include a 'sidebars.yaml' file alongside their registry files.
     # pathPrefix: # Optional parameter to specify where to download files. When set, it replaces the automatically created 'api-name' folder. The 'api-version' subfolder(s) will still be created for non-default versions in the specified path prefix.
     versions: # One or more versions of the API to integrate.
       - link: https://api.redocly.com/registry/assets/testing_romanpryshliak/public-petstore-for-api-catalog-demo/v1?branch=main # Must be a 'Files link' for a specific API version in the registry.
