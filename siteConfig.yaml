@@ -27,6 +27,9 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
+  - label: API Catalog
+    page: apis.mdx
+
   - label: Training exercises
     page: developer-portal/index.md
 
