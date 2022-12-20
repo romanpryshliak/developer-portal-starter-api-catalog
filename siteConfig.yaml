@@ -4,10 +4,6 @@ meta:
   siteUrl: https://developer-portal-starter.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
   lang: en-US
-linkChecker:
-  severity: warning
-  options:
-    CheckExternal: false
 logo:
   image: ./images/logo.png
   altText: Redocly Training
